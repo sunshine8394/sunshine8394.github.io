@@ -1,0 +1,311 @@
+html {
+  cursor: url('chrome.cur'), default;
+}
+
+body{
+    background-image: url('img/blue.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo{
+    font-family: "Cute Font", sans-serif;
+    font-size: 100px;
+    color: #3B35FF;
+    text-align: center;
+    -webkit-text-stroke-width: 11px;
+    -webkit-text-stroke-color: black;
+    paint-order: stroke fill;
+    filter: drop-shadow(0px 7px 4px #000000);
+    mix-blend-mode: hard-light;
+    margin-top: -115px;
+    margin-bottom: -115px;
+}
+
+.nav{
+    border-radius: 5px;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    margin: 0px auto;
+    width: 220px;
+    font-size: 30px;
+    border: 1px solid black;
+    font-family: "Nico Moji";
+    mix-blend-mode: hard-light;
+    filter: drop-shadow(0px 5px 4px #000000);
+}
+
+.item{
+    background-image: linear-gradient(to bottom, rgb(118, 118, 118), rgb(90, 90, 90) 30%, #1E1E1E, #000000);
+    background-position: top;
+    background-size: 100% 150%;
+    width: 110px;
+    border: 1px solid #aaccff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-position 0.3s ease;
+}
+
+.item1{
+    border-radius: 4px 0px 0px 4px;
+}
+.item2{
+    border-radius: 0px 4px 4px 0px;
+}
+
+.item:hover{
+    background-position: bottom;
+    cursor: url('chrome-link.cur'), pointer;
+}
+
+.stuff{
+    background-color: rgba(36, 36, 36, 0.676);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px auto;
+    width: 700px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 50px;
+}
+
+.prod{
+    filter: drop-shadow(0px 5px 4px #000000);
+    transition: transform 0.3s ease;
+}
+
+.prod:hover{
+    transform: scale(0.8);
+}
+
+.listing{
+    background-color: rgba(36, 36, 36, 0.676);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px auto;
+    width: 700px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 50px;
+    color: rgb(238, 238, 238);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3B35FF;
+    paint-order: stroke fill;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pimg{
+    filter: drop-shadow(0px 5px 4px #000000);
+}
+
+input, textarea {
+    field-sizing: content;
+    min-width: 30px;
+    max-width: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #000000;
+}
+
+.item-name{
+    font-family: "Cute Font", sans-serif;
+    font-size: 70px;
+    filter: drop-shadow(0px 7px 4px #000000);
+    margin-top: -85px;
+    margin-bottom: -85px;
+}
+
+#your-cart{
+    font-family: "Nico Moji";
+    filter: drop-shadow(0px 5px 4px #000000);
+    font-size: 25px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.cart{
+    background-color: rgba(36, 36, 36, 0.676);
+    border-radius: 5px;
+    margin: 0px auto;
+    width: 700px;
+    border: 1px solid black;
+    padding: 50px;
+    gap: 50px;
+    color: rgb(238, 238, 238);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3B35FF;
+    paint-order: stroke fill;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart-contents{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 50px;
+    gap: 50px;
+    align-items: center;
+}
+
+.butt{
+    font-family: "Nico Moji";
+    filter: drop-shadow(0px 5px 4px #000000);
+    color: white;
+    background-image: linear-gradient(to bottom, #aaccff, #3B35FF 30%);
+    background-position: top;
+    background-size: 100% 150%;
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 1px solid black;
+    outline-offset: 1px;
+    font-size: 20px;
+    mix-blend-mode: hard-light;
+    transition: background-position 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.butt:hover{
+    cursor: url('chrome-link.cur'), pointer;
+    background-position: bottom;
+    color: #aaccff;
+}
+
+img{
+    border: 1px solid black;
+    height: auto;
+    display: block;
+}
+
+a:link{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3B35FF;
+    paint-order: stroke fill;
+}
+a:visited{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3B35FF;
+    paint-order: stroke fill;
+}
+a:hover{
+    color: #AACCFF;
+    cursor: url('chrome-link.cur'), pointer;
+}
+
+.cute-font-regular {
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hubballi-regular {
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Nico Moji";
+    src: url("NicoMoji-Regular.ttf") format("truetype");
+}
+
+hr {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    paint-order: stroke fill;
+}
+
+@media screen and (max-width: 850px){
+    .stuff{
+        width: 500px;
+    }
+
+    .listing{
+        width: 500px;
+        padding: 40px;
+        gap: 40px;
+    }
+    .pimg{
+        height: 70%;
+    }
+
+    .cart{
+        width: 500px;
+    }
+    .cart-contents{
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #logo{
+        font-size: 80px;
+        margin-top: -80px;
+        margin-bottom: -80px;
+    }
+
+    .stuff{
+        width: 225px;
+        grid-template-columns: auto auto;
+    }
+
+    .listing{
+        width: 305px;
+        padding: 20px;
+        gap: 20px;
+    }
+    .item-name{
+        font-size: 40px;
+        margin-top: -45px;
+        margin-bottom: -45px;
+        grid-template-columns: auto auto;
+    }
+    .pimg{
+        height: 40%;
+    }
+    .butt{
+        font-size: 15px;
+    }
+
+    .cart{
+        width: 300px;
+    }
+    .cart-contents{
+        padding: 10px;
+        gap: 10px;
+    }
+}
+
+::selection{
+    background-color: #3B35FF;
+    color: white;
+}
