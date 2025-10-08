@@ -152,9 +152,9 @@ input, textarea {
 .cart-contents{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    padding: 50px;
-    gap: 50px;
+    grid-template-rows: 5 5 5; /* forced size of rows */
+    padding: 25px; /* halved the padding and gap size */
+    gap: 25px;
     align-items: center;
 }
 
@@ -183,7 +183,8 @@ input, textarea {
 
 img{
     border: 1px solid black;
-    height: auto;
+    height: 15vw;
+    width: 15vw; /* image size responsive to viewport */
     display: block;
 }
 
